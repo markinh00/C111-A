@@ -1,6 +1,6 @@
 import numpy as np
 
-data = np.loadtxt('paises.csv', delimiter=';', dtype=str, encoding='utf-8')
+data = np.loadtxt('../arquivos/paises.csv', delimiter=';', dtype=str, encoding='utf-8')
 
 print("questão 1 -----------------------------------------------------------------------------------------------------")
 print(data[:, 0:5])
