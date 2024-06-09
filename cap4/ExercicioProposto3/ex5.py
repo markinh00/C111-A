@@ -1,6 +1,6 @@
 import numpy as np
 
-data = np.loadtxt('space.csv', delimiter=';', dtype=str, encoding='utf-8')
+data = np.loadtxt('../../arquivos/space.csv', delimiter=';', dtype=str, encoding='utf-8')
 
 unique, counts = np.unique(data[:, 1], return_counts=True)
 
